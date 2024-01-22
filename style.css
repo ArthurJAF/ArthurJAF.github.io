@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+  
 }
 
 body{
     height: 300vh;
     background-color: #ffffff;
+    color: #000000;
 }
 
 .div-grid{
@@ -15,7 +17,7 @@ body{
     height: 300vh;
 
     grid-template-columns:  50% auto;
-    grid-template-rows: 7% auto 7%;
+    grid-template-rows: 5% auto 5%;
     grid-gap: 5px;
 }
 
@@ -28,11 +30,12 @@ header{
     width: 100%;
     height: 12%;
     background-color: #ffffff;
+    
 
 }
 .nav_menu{
 
-
+    
     display: flex;
     flex-flow: row nowrap ;
 
@@ -56,8 +59,8 @@ nav #nome{
 .div-menu{
     margin-left: 350px;
 }
-.div-menu a{
-    color: #000000;
+#nav-a {
+    color: black;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -65,11 +68,12 @@ nav #nome{
 #claro-escuro{
     color: #000000;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
 /*_______Header A:hover______________*/
-.div-menu a:hover{
+#nav-a:hover{
     color: #907943;
 }
 nav #nome:hover{
@@ -112,7 +116,19 @@ article h3{
     color: #6b8e23;
 }
 
+section #sobre{
+    
+    padding-top: 7%;
+}
+section #objetivo{
+    
+    padding-top: 6%;
+    margin-bottom: 6%;
+}
 
+section #contato{
+    margin-bottom: 5%;
+}
 /*_________art1__________*/
 .art1{
     padding: 60px;
@@ -297,3 +313,4 @@ footer .div-footer-menu a{
     align-self: end;
     margin-right: 5px;
 }
+
