@@ -68,7 +68,7 @@ nav #nome{
 #claro-escuro{
     color: #000000;
     text-decoration: none;
-    cursor: grab;
+    cursor: pointer;
 }
 
 
