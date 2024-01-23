@@ -129,6 +129,22 @@ section #objetivo{
 section #contato{
     margin-bottom: 5%;
 }
+/*_________IMAGEM__________*/
+
+
+.circle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+  .circle img {
+    bottom: 0;
+    width: 100%;
+    
+  }
+
 /*_________art1__________*/
 .art1{
     padding: 60px;

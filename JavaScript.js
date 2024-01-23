@@ -8,10 +8,9 @@ modo.addEventListener('click', modo_escuro)
 
 
 function modo_escuro(){
-
-    if(modo.innerText == "Modo escuro"){
-
-        modo.innerText = "Modo claro"
+    if(modo.className == "escuro"){
+        modo.className ="claro"
+        modo.innerHTML = "<i style='font-size:18px' class='fa'>&#9788;</i>"
 
         body.style.background = "#352c19"
         body.style.color = "#ffffff"
@@ -19,30 +18,27 @@ function modo_escuro(){
         nome.style.color = "#ffffff"
         modo.style.color = "#ffffff"
 
-    for(var i = 0; i<= nav_menu.length;
-        i++){
-            nav_menu[i].style.color = "#ffffff"
-        }   
-        console.log("escuro")
-
-        document.onscrollend()
+        for(var i = 0; i< nav_menu.length;
+            i++){
+                nav_menu[i].style.color = "#ffffff"
+            }   
+        console.log("escuro")   
     }else{
-        modo.innerText = "Modo escuro"
+        modo.className = "escuro"
+        modo.innerHTML = "<i style='font-size:18px' class='fa'>&#xf186;</i>"
     
         body.style.background = "#ffffff"
         body.style.color = "#000000"
         header.style.background = "#ffffff"
         nome.style.color = "#000000"
         modo.style.color = '#000000'
-        for(var i = 0; i<= nav_menu.length;
+
+        for(var i = 0; i< nav_menu.length;
             i++){
                 nav_menu[i].style.color = "#000000"
             }   
-            console.log("escuro")
         console.log("claro")
-    }
-    
-    
+    }     
 }
 
 
