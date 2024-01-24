@@ -346,7 +346,7 @@ footer .div-footer-menu a{
 
 
 /* _____Mobile_____ */
-@media (max-width: 980px){
+@media screen and (max-width: 980px){
         body{
             height: 300vh;
         }
