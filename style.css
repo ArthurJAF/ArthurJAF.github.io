@@ -42,7 +42,7 @@ header{
 
     justify-content: center;
     align-items: center;
-    max-width: 90%;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     gap: 0px ;
@@ -246,7 +246,7 @@ section #contato{
     font-size: 17px;
     list-style-type: circle;
     grid-column: 1/3;
-    grid-row: 2/4;
+    grid-row: 2/3;
 }
 
 /*_________Art4________________*/
@@ -347,14 +347,14 @@ footer .div-footer-menu a{
 
 /* _____Mobile_____ */
 @media screen and (max-width: 980px){
-        body{
-            height: 300vh;
-        }
+    body{
+        height: 300vh;
+    }
     header{
         height: 10%; 
     }
     .div-menu {
-        margin-left: 14%;
+        margin-left: 8%;
         
     }
     .contato{
@@ -375,8 +375,15 @@ footer .div-footer-menu a{
         width: 14%;
     }
     .div-menu{
-        width: 100%;
+        width: auto;
     }
-   
+
+    .art3{
+        height:200px ;
+    }
+    #lua{
+        margin-right:px ;
+    }
+
     
 }
