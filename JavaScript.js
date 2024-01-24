@@ -44,7 +44,7 @@ function modo_escuro(){
 window.onscroll = function(){shadow()}
 
 function shadow(){
-    if(window.innerWidth > 900){
+    if(window.innerWidth > 980){
         if(modo.className == "escuro"){
             if (document.documentElement.scrollTop > 40) {
                 document.querySelector("header").className = "shadow-header-claro";
