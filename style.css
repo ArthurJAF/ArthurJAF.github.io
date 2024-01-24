@@ -83,6 +83,17 @@ nav #nome:hover{
 #claro-escuro:hover{
     color: #907943;
 }
+/*________NAV JAVASCRIPT___________*/
+
+.shadow-header-claro{
+    box-shadow: 0 0px 8px #8e8e8e;
+}
+.shadow-header-escuro{
+    box-shadow: 0 0px 8px #545049;
+}
+
+
+
 /*________MAIN___________*/
 
 main{
@@ -102,7 +113,6 @@ section{
 
 article{
     width: 450px;
-    /* height: 250px; */
     text-align: center;
     display: grid;
     grid-template-columns: 50% auto;
@@ -261,7 +271,8 @@ section #contato{
 
     justify-content: center;
     align-items: center; 
-    text-align: start; 
+    text-align: start;
+    margin-left: 61px; 
 }
 
 .contato div{
@@ -333,14 +344,16 @@ footer .div-footer-menu a{
 
 
 /* _____Mobile_____ */
-@media (max-width: 800px){
-  
-
+@media (max-width: 900px){
+        body{
+            height: 250vh;
+        }
     header{
-        height: 5%;
+        height: 10%; 
     }
     .div-menu {
-        margin-left: 12%;
+        margin-left: 14%;
+        
     }
     .contato{
     

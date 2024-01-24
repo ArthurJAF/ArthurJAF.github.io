@@ -41,4 +41,25 @@ function modo_escuro(){
     }     
 }
 
+window.onscroll = function(){shadow()}
+
+function shadow(){
+    if(window.innerWidth > 900){
+        if(modo.className == "escuro"){
+            if (document.documentElement.scrollTop > 40) {
+                document.querySelector("header").className = "shadow-header-claro";
+                } else {
+                    document.querySelector("header").className = "";
+                }
+        }else{
+            if (document.documentElement.scrollTop > 40) {
+                document.querySelector("header").className = "shadow-header-escuro";
+                } else {
+                    document.querySelector("header").className = "";
+                }
+        }
+    }
+      
+      
+  }
 
