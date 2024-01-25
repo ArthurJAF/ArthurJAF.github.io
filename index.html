@@ -17,6 +17,13 @@
 
 <body id="home">
 
+    <div id="aviso" class="aviso">
+        <p id="mensagem"></p>
+        <span id="fechar" onclick="fecharAviso()">&times;</span>
+    </div>
+
+    
+
     <div class="div-grid">
 
         <header>
@@ -26,8 +33,8 @@
 
                 <div class="div-menu">
                     <a  href="#home" id="nav-a"><i class="fa fa-home"></i> Home</a>
-                    <a href="#sobre" id="nav-a"> Sobre</a>
-                    <a href="#objetivo" id="nav-a"> Objetivo</a>
+                    <a href="#sobre" id="nav-a"><i style="font-size:15px" class="fa">&#xf2ba;</i> Sobre</a>
+                    <a href="#objetivo" id="nav-a"><i style="font-size:15px" class="fa">&#xf135;</i> Objetivo</a>
                     <a href="page_2.html" id="nav-a"><i style="font-size:15px" class="fa">&#xf07b;</i> Projetos</a>
                 </div>
 
@@ -76,32 +83,41 @@
                     
                 </article>
                 </div id='contato'>
+                
                 <article class="art4">
                     <h3>Contato</h3>
 
                     <div class="contato">
                         
                         <i style="font-size:30px;" class="fa fa-instagram" ></i>
-                        <div>
-                            <h4>insta</h4>
-                            <p>arthur_jaf</p>
-                        </div>
-                        <i style="font-size:30px" class="fa">&#xf0e0;</i>
-                        <div>
-                             <h4>Email</h4>
-                            <p>arthurjaf@gmail.com</p>
-                        </div>
-                        <i style="font-size:30px" class="fa">&#xf08c;</i>
-                        <div>
-                            <h4>Linkedin</h4>
-                            <p>linkedin.com/in/arthur-jaf</p>
-                        </div>
-                        
-                    </div>
+                        <div id="elementoComMensagem">
+                            <!-- <h4>insta</h4> -->
+                            <p id="textoParaCopiar" >@arthur_jaf</p>
                     
+                        </div>
 
+                        <i style="font-size:30px" class="fa">&#xf0e0;</i>
+                        <div id="elementoComMensagem">
+                             <!-- <h4>Email</h4> -->
+                            <p id="textoParaCopiar">arthurjaf@gmail.com</p>
+                           
+                        </div>
+
+                        <i style="font-size:30px" class="fa">&#xf08c;</i>
+                        <div id="elementoComMensagem">
+                            <!-- <h4>Linkedin</h4> -->
+                            <p id="textoParaCopiar">linkedin.com/in/arthur-jaf</p>
+                            
+                        </div>
+                       
+                    </div>
+                    <div id="mensagemAoPassar">Clique e copie</div>
                 </article>
+
+                
             </section>
+
+           
         </main>
 
 
