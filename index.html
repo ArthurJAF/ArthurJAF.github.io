@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="style.css">
     <!-- icones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- JavaScript -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Tenor+Sans&display=swap" rel="stylesheet">
     
 </head>
 
@@ -24,22 +27,26 @@
 
     
 
-    <div class="div-grid">
+    <div class="div-grid" id="content">
 
         <header>
             <nav class="nav_menu" >
-                <img src="img/nova.jpg" alt="" id="img-nav">
-                <a href="#" id="nome"><h3>Arthur Jardim</h3></a>
+                <div class="img-nav"><img src="img/Logo_losangulo_fundo_branco.jpg" alt="" id="img-nav"></div>
+                
+                <a id="nome"><h3>Arthur Jardim</h3></a>
 
                 <div class="div-menu">
-                    <a  href="#home" id="nav-a"><i class="fa fa-home"></i> Home</a>
-                    <a href="#sobre" id="nav-a"><i style="font-size:15px" class="fa">&#xf2ba;</i> Sobre</a>
-                    <a href="#objetivo" id="nav-a"><i style="font-size:15px" class="fa">&#xf135;</i> Objetivo</a>
+                    <a href="#" id="nav-a" class="home-scroll"><i class="fa fa-home"></i> Home</a>
+                    <a href="#" id="nav-a" class="sobre-scroll"><i style="font-size:15px" class="fa">&#xf2ba;</i> Sobre</a>
+                    <a href="#" id="nav-a" class="objetivo-scroll"><i style="font-size:15px" class="fa" >&#xf135;</i> Objetivo</a>
                     <a href="page_2.html" id="nav-a"><i style="font-size:15px" class="fa">&#xf07b;</i> Projetos</a>
                 </div>
 
                 <div><a id="claro-escuro" class="escuro"><i style="font-size:18px" class="fa" id="lua">&#xf186;</i></a></div> 
+                
             </nav>
+            <div id="mensagem-modo">Ative o modo escuro</div>
+            
         </header>
 
         <main>
@@ -53,7 +60,13 @@
                     </div>
                     
                     <p>Sou estudante de Sistemas da Informação na Universidade Federal Fluminense - Uff.</p>
-                    
+
+                    <div class="div-cv">
+                        
+                        <button class="button" id="button-scroll-contato">Contato   <i style="font-size:15px" class="fa">&#xf138;</i></button>
+
+                        <a href="download/CV Arthur Jardim A Ferreira.pdf" download>Download CV</a>
+                    </div>
                 </article >
             
 
@@ -70,7 +83,7 @@
 
                 <div id="objetivo">
                 <article class="art3">
-                    <h3>Quais meus Objetivos?</h3>
+                    <h3>Quais são meus Objetivos?</h3>
 
                     <ol>
                     <li>Conseguir um estágio na área de tecnologia</li>
@@ -82,8 +95,9 @@
                     </ol>
                     
                 </article>
-                </div id='contato'>
+                </div>
                 
+                <div id="contato">
                 <article class="art4">
                     <h3>Contato</h3>
 
@@ -113,7 +127,7 @@
                     </div>
                     <div id="mensagemAoPassar">Clique e copie</div>
                 </article>
-
+                </div>
                 
             </section>
 
