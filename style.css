@@ -380,7 +380,7 @@ footer .div-footer-menu a{
 
 
 /* _____MEDIA_____ */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
 
     .div-menu {
         margin-left: 8%;  
@@ -464,7 +464,7 @@ footer .div-footer-menu a{
     border-radius: 15px;
     padding: 4.5px;
     position: absolute;
-    top: 275%;
+    margin-top: 0.5em;
     
 }
 #mensagem-modo {
@@ -475,9 +475,8 @@ footer .div-footer-menu a{
     border-radius: 15px;
     padding: 6px;
     position: absolute;
-    right: 20%;
-    top: 75px;
-      
+    right: 15%;
+    
 }
 
 

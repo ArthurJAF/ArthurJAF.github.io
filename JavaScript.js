@@ -148,11 +148,11 @@ if(window.innerWidth > 950){
         e.addEventListener('mouseover', function () {
             
             if(index === 0){
-                mensagem.style.marginLeft = '-21%'
+                mensagem.style.marginLeft = '-26%'
             }else if(index === 1){
-                mensagem.style.marginLeft = '4%'
+                mensagem.style.marginLeft = '-10%'
             }else{
-                mensagem.style.marginLeft = '38%'
+                mensagem.style.marginLeft = '10%'
             }
             mensagem.style.display = 'block';       
         });
